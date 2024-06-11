@@ -1,0 +1,3 @@
+[submodule "vendor/glib"]
+	path = vendor/glib
+	url = https://github.com/GNOME/glib.git
