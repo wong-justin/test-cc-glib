@@ -1,6 +1,4 @@
 fn main() {
-    let out_dir = std::env::var("OUT_DIR").unwrap();
-
     let source_c_files = std::fs::read_dir("vendor/glib")
         .unwrap()
         .filter_map(|entry| {
